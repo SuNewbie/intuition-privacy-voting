@@ -1,0 +1,20 @@
+{
+  "name": "intuition-privacy-voting",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run contracts/scripts/deployVoting.ts --network intuitionTestnet",
+    "test": "hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.22.7",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "ethers": "^6.13.2",
+    "dotenv": "^16.4.5"
+  }
+}
